@@ -48,5 +48,38 @@ header{
 .nav-bar ul li a:hover{
     color: #11101b;
     background: #fefefe;
-    
+}
+
+.nav-bar ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+}
+
+@media only screen and (max-with: 1320px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-with: 1100px) {
+    header {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-with: 900px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+
+    .nav-bar {
+        display: none;
+    }
 }
