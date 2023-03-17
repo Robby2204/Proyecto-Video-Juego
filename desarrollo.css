@@ -84,7 +84,7 @@ h1{
     position: absolute;
     top: 40px;
     right: 40px;
-    background: #851919;
+    background: #030303;
     color: #fff;
     text-decoration: none ;
     width: 40px;
@@ -96,7 +96,7 @@ h1{
 
 .next{
     display: block;
-    background: #851919;  
+    background: #030303;  
     color: #fff;
     height: 30px;
     width: 30px;
