@@ -11,7 +11,7 @@ export class UI {
         context.shadowOffsetY = 2;
         context.shadowColor = 'white';
         context.shadowBlur = 0;
-        context.font = this.fontSize + 'px' + this.fontFamily; 
+        context.font = this.fontSize + 'px ' + this.fontFamily; 
         context.textAlign = 'left';
         context.fillStyle = this.game.fontColor;
         //score
