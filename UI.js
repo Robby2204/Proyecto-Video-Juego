@@ -15,10 +15,10 @@ export class UI {
         context.textAlign = 'left';
         context.fillStyle = this.game.fontColor;
         //score
-        context.fillText('Score: ' + this.game.score, 20, 50);
+        context.fillText('Puntaje: ' + this.game.score, 20, 50);
         //timer
         context.font = this.fontSize * 0.8 + 'px ' + this.fontFamily;
-        context.fillText('Time: ' + (this.game.time * 0.001).toFixed(1), 20, 80);
+        context.fillText('Tiempo: ' + (this.game.time * 0.001).toFixed(1), 20, 80);
         // lives
         for (let i = 0; i < this.game.lives; i++){
             context.drawImage(this.livesImage, 25 * i + 20, 95, 25, 25);
@@ -30,11 +30,11 @@ export class UI {
             if (this.game.score > this.game.winningScore){
                 context.fillText('Boo-yah', this.game.width * 0.5, this.game.height * 0.5 - 20);
                 context.font = this.fontSize * 0.7 + 'px ' + this.fontFamily;
-                context.fillText('What are creatures of the night afraid of? YOU!!!', this.game.width * 0.5, this.game.height * 0.5 + 20);
+                context.fillText('¿A qué le temen las criaturas de la noche? ¡¡¡A TÍ!!!', this.game.width * 0.5, this.game.height * 0.5 + 20);
             } else {
-                context.fillText('Love at first kick', this.game.width * 0.5, this.game.height * 0.5 - 20);
+                context.fillText('Amor en la primera patada', this.game.width * 0.5, this.game.height * 0.5 - 20);
                 context.font = this.fontSize * 0.7 + 'px ' + this.fontFamily;
-                context.fillText('Nope. Better luck next time!', this.game.width * 0.5, this.game.height * 0.5 + 20);
+                context.fillText('¡No. Mejor suerte la próxima vez!', this.game.width * 0.5, this.game.height * 0.5 + 20);
             }
 
         }
