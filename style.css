@@ -60,7 +60,7 @@ body {
 
 .header {
   height: 60vh !important;
-  background: url(imagenes/rabbit2.jpg) no-repeat center;
+  background: url(imagenes/) no-repeat center;
   background-size: cover;
 }
 
