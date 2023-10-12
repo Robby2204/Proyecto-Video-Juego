@@ -27,10 +27,10 @@ window.addEventListener('load', function(){
             this.floatingMessages = [];
             this.maxParticles = 200;
             this.enemyTimer = 0;
-            this.enemyInterval = 1000;
+            this.enemyInterval = 750;
             this.debug = false;
             this.score = 0;
-            this.winningScore = 100;
+            this.winningScore = 200;
             this.fontColor = 'black';
             this.time = 0;
             this.maxTime = 60000;
